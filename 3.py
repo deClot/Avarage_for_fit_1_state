@@ -19,9 +19,9 @@ res_path =  os.path.abspath('Result_avarege of fit_n.txt')
 
 
 if os.path.exists(init_path)==False:
-    init_path =os.path.abspath('Avarege_for_fit_n_states/avarege for fit_n')
-    second_path = os.path.abspath('Avarege_for_fit_n_states/res2.res')
-    res_path = os.path.abspath('Avarege_for_fit_n_states/Result_avarege of fit_n.txt')
+    init_path =os.path.abspath('Avarage_for_fit_1_state/avarege for fit_n')
+    second_path = os.path.abspath('Avarage_for_fit_1_state/res2.res')
+    res_path = os.path.abspath('Avarage_for_fit_1_state/Result_avarege of fit_n.txt')
 
 
     #file3=open(second_path, 'r')

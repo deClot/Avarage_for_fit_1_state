@@ -4,8 +4,8 @@ TRANS_path = os.path.abspath('TRANS.RES')
 res_path = os.path.abspath ('res.res')
 
 if os.path.exists(res_path)==False:
-    TRANS_path =os.path.abspath('Avarege_for_fit_n_states/TRANS.RES')
-    res_path = os.path.abspath('Avarege_for_fit_n_states/res.res')
+    TRANS_path =os.path.abspath('Avarage_for_fit_1_state/TRANS.RES')
+    res_path = os.path.abspath('Avarage_for_fit_1_state/res.res')
 
 
 while(True):
