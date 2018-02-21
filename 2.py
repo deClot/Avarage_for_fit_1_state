@@ -42,7 +42,8 @@ while (True):
     str2=str1[0:55]
    
     if len(str2)==0:
-       break
+       break 
+	  
 
     if str2.find ('matrix',0,len(str1))!=-1: #sodershit matrix
         list2.sort(key=sort_col)
@@ -61,12 +62,14 @@ while (True):
     str2=str2.split()
     if len(str2)==7:
         no,_,v,J,Ka,Kc,E2=str2
+        E2 = float(E2)
         str3=no,_,v,J,Ka,Kc
         v=int(v)
         kk,list1,list2=func (v,v0,list1,str3,list2,no,E2)
         v0=kk
     if len(str2)==8:
         no,_,v,J,Ka,Kc,E1,E2=str2
+        E2=float(E2)  
         str3=no,_,v,J,Ka,Kc,E1
         v=int(v)
         kk,list1,list2=func (v,v0,list1,str3,list2,no,E2)
